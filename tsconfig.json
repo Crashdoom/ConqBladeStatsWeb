@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "target": "es5",
+    "esModuleInterop": true
+  }
+}
