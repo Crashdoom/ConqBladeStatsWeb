@@ -28,6 +28,13 @@ export const BoomingGamesServers: React.FunctionComponent<Props> = ({ onError })
           </div>
         </div>
       </div>
+      {(serverInfo && serverInfo.psa) && (
+        <div className="col-lg-12">
+          <div className="alert alert-warning" role="alert">
+            <strong>PSA from Webmaster:</strong> {serverInfo.psa}
+          </div>
+        </div>
+      )}
       {Object.keys(boomingGamesServerList).map(id =>
         <StatusBlock
           id={id}
