@@ -4,6 +4,12 @@ This is the React-based frontend UI for the ConqBladeStats.com website - A stati
 
 ![ConqBladeStats.com Website Screenshot](/images/main-site.png)
 
+### Project Links
+
+* Web Frontend (This Project)
+* [Google Cloud Function](https://github.com/Crashdoom/ConqBladeStatsGCF)
+* [CloudFlare Workers](https://github.com/Crashdoom/ConqBladeStatsCFW)
+
 ### What's the purpose of the site?
 
 The site was created to build up statistics around when players were active on all of the servers across MyGames and Booming Games instances and to provide useful server status information that both companies didn't offer themselves.
