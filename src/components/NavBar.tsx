@@ -19,6 +19,9 @@ export const NavBar: React.FunctionComponent<Props> = ({ errorMessage }) => (
           <li className="nav-item">
             <a className="nav-link" href="#">Historical Data (Coming Soon)</a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href="https://github.com/Crashdoom/ConqBladeStatsWeb" target="_blank">Source on GitHub</a>
+          </li>
         </ul>
       </div>
     </nav>
